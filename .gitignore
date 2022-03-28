@@ -1,2 +1,9 @@
 node_modules
-.DS_STORE
+.env
+coverage
+coverage.json
+typechain
+
+#Hardhat files
+cache
+artifacts
