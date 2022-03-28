@@ -1,7 +1,7 @@
 {
   "name": "nft-game-starter",
   "version": "0.1.0",
-  "homepage": "github-page/",
+  "homepage": ".",
   "private": true,
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.5",
