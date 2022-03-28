@@ -7,8 +7,6 @@ import myEpicGame from "./utils/MyEpicGame.json";
 import { ethers } from "ethers";
 import Arena from "./Components/Arena";
 // Constants
-const TWITTER_HANDLE = "_buildspace";
-const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 
 const App = () => {
   // State
@@ -159,15 +157,6 @@ const App = () => {
            *	Remember we moved it into the render method.
            */}
           {renderContent()}
-        </div>
-        <div className="footer-container">
-          <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
-          <a
-            className="footer-text"
-            href={TWITTER_LINK}
-            target="_blank"
-            rel="noreferrer"
-          >{`built with @${TWITTER_HANDLE}`}</a>
         </div>
       </div>
     </div>
